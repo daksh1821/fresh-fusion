@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "googleapis": "^105.0.0",
+    "hbs": "^4.2.0",
+    "mongoose": "^8.2.1",
+    "nodemon": "^3.1.0",
+    "razorpay": "^2.9.2"
+  }
+}

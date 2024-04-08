@@ -1,0 +1,291 @@
+*{
+    margin:0;
+    padding:0;
+   
+    min-height: fit-content;
+    max-height: fit-content;
+   
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: aliceblue;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    position : sticky;
+    top:0;
+    cursor: pointer;
+
+
+}
+.nav-list{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:70%;
+
+    /*background-color: black;*/
+    
+
+
+}
+nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+
+}
+.nav-list li a{
+    text-decoration: none;
+    font-size: larger;
+
+}
+.rightnav{
+    width:30%;
+    text-align: right;
+    margin-top: 2px;
+    padding: 0 23px;
+
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: grey;
+
+}
+.logo{
+    text-shadow: lightpink;
+    color: purple;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.name{
+    margin-top: 7px;
+}
+.imagelogo{
+    margin-left: 5px;
+    border-radius: 12px 12px 12px 12px;
+}
+.services{
+    border: none;
+    background-color: aliceblue;
+}
+.btn-sm{
+    border-radius: 5px;
+    color: white;
+    background-color: lightslategray;
+    height: 40px;
+    width:76px;
+    margin-right: 15px;
+}
+.btn-sm2{
+    border-radius: 5px;
+    color: white;
+    background-color: plum;
+    height: 40px;
+    width:76px;
+    border: 2px solid white;
+    margin-right: 15px;
+}
+#section{
+    margin-left: 20px;
+    margin-top: 150px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: hotpink;
+  
+}
+/*.sectiontag text-big{
+    margin-top: 20px;
+}*/
+.para{
+    margin-top: 2px;
+    font-size: larger;
+
+}
+
+.right{
+    margin-left: 1000px;
+    margin-top: -400px;
+   
+}
+.circle{
+        margin-top: 50px;
+       
+        border-radius: 50px 50px 50px 50px;
+        width: 700px;
+        
+        text-align: center;
+        height: 400px;
+        margin-left:20px;
+    
+}
+
+.learnmore {
+    height: 40px;
+    width: 120px;
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color:aquamarine;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.learnmore:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.manthinking{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+.card1{
+    width: 200px;
+    height: 150px;
+    border: 3px solid whitesmoke;
+    position: absolute;
+    left: 10%;
+    transform: translateX(-50%);
+    top: 70%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,2,3, 0.5);
+    transition: box-shadow 0.8s; 
+    background-color:lightgreen;
+    
+}
+.card1:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.8s;
+
+}
+.card2{
+    width: 200px;
+    height: 150px;
+    border: 3px solid whitesmoke;
+    position: absolute;
+    left: 30%;
+    transform: translateX(-50%);
+    top: 70%;
+    border-radius: 8px;
+    box-shadow:0 4px 8px rgba(0,2,3, 0.5);
+    transition:  box-shadow 0.8s; 
+    background-color:lightgreen;
+    
+}
+.card2:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.8s;
+
+}
+.card3{
+    width: 200px;
+    height: 150px;
+    border: 3px solid whitesmoke;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 70%;
+    border-radius: 8px;
+    box-shadow:0 4px 8px rgba(0,2,3, 0.5);
+    transition:  box-shadow 0.8s; 
+    background-color:lightgreen;
+    
+}
+.card3:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.8s;
+
+}
+.card-container{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+ 
+
+}
+.sectiona{
+
+  position: relative;
+  top: 10%;
+  width: 100%;
+
+}
+.our-prices{
+    text-align: center;
+    color:rgba(0,2,3, 0.8)
+}
+.prices{
+
+    background-color: white;
+    width:150px;
+    height: 203px;
+    border: 3px solid blanchedalmond;
+
+    border-radius:0.5rem;
+    margin-top:2.5rem;
+    padding:1rem 1rem;
+    margin-left:5rem;
+    transition: 2s;
+    box-shadow:0 4px 8px rgba(0,2,3, 0.4);
+    transition:  box-shadow 0.8s;
+}
+.prices:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.8s;
+
+}
+.prices-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Distribute items evenly along the main axis */
+    margin-bottom: 20px; /* Add some margin between the rows */
+}
+
+.offers-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Distribute items evenly along the main axis */
+}
+
+.offers{
+    background-color: white;
+    width:150px;
+    height: 390px;
+
+    border: 3px solid blanchedalmond;
+    border-radius:0.5rem;
+    margin-top:2.5rem;
+    padding:1rem 1rem;
+    margin-left:rem;
+    transition: 2s;
+    box-shadow:0 4px 8px rgba(0,2,3, 0.4);
+    transition:  box-shadow 0.8s;
+
+}
+.offers:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.8s;
+
+}
+.seactionaimg{
+    width:100%;
+
+    background-color: white;
+    border-radius:0.5rem;
+
+}
+.ordernow {
+    height: 28px;
+    width: 90px;
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color:aquamarine;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}

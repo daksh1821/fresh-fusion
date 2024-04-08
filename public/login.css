@@ -1,0 +1,136 @@
+/**{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    place-items: center;
+    background: url('../imagee/anshita-nair-Hs951eXWbow-unsplash.jpg');
+}
+h1{
+    margin-top: 100px;
+    margin-left: 400px;
+    color: blue;
+
+}
+.forms{
+    height: 500px;
+    border: 2px solid transparent;
+    width: 700px;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 400px;
+    margin-top: 70px;
+    margin-bottom: 800px;
+    background: url('../imagee/anshita-nair-Hs951eXWbow-unsplash.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+
+
+}
+h2{
+    /* color: rgb(223, 155, 52); 
+    margin-top: 10vh;
+    margin-bottom: 30px;
+    margin-left: 15px;
+
+}
+input{
+    font-size: 1rem;
+    width: 300px;
+    padding: 6px 2px; 
+    margin:5px 5px 5px 5px;
+}
+.sub{
+    background-color:rgb(223, 155, 52);
+    cursor: pointer;
+}
+
+form{
+     margin-top: 20vh; 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    padding: 20px;
+    
+
+}
+#submitbtn{
+    border: 2px solid white;
+    background-color: lightseagreen;
+    border-radius: 5px;
+
+}
+*/
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply background image to the body */
+body {
+    display: flex;
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    min-height: 100vh; /* Ensure full viewport height coverage */
+    background: url('../imagee/anshita-nair-Hs951eXWbow-unsplash.jpg') center/cover; /* Set background image */
+}
+
+/* Main heading styles */
+h1 {
+    font-size: 3rem; /* Increase font size for emphasis */
+    text-align: center; /* Center align heading */
+    margin-top: 50px; /* Reduce top margin for better alignment */
+    color: #2c3e50; /* Set text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add subtle text shadow */
+    letter-spacing: 2px; /* Add letter spacing for better readability */
+    text-transform: uppercase; /* Convert text to uppercase */
+}
+
+/* Form container styles */
+.forms {
+    height: 500px; /* Set form container height */
+    width: 700px; /* Set form container width */
+    margin: 70px 100px 800px 400px; /* Add margins (top, right, bottom, left) */
+    background: url('../imagee/anshita-nair-Hs951eXWbow-unsplash.jpg') center/cover; /* Set background image */
+    background-blend-mode: darken; /* Apply darken blend mode */
+    border: 2px solid transparent; /* Set border */
+}
+
+/* Sub-heading styles */
+h2 {
+    margin-top: 10vh; /* Add space above sub-heading */
+    margin-bottom: 30px; /* Add space below sub-heading */
+    margin-left: 15px; /* Align sub-heading horizontally */
+}
+
+/* Input field styles */
+input {
+    font-size: 1rem; /* Set font size */
+    width: 300px; /* Set input width */
+    padding: 6px 2px; /* Set padding */
+    margin: 5px; /* Set margin */
+}
+
+/* Submit button styles */
+.sub {
+    background-color: lightseagreen; /* Set background color */
+    cursor: pointer; /* Set cursor style */
+    border: 2px solid white; /* Set border */
+    border-radius: 5px; /* Set border radius */
+}
+
+/* Form container styles */
+form {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange items in a column */
+}
+
+/* Styling for the submit button */
+#submitbtn {
+    border: 2px solid white;
+    background-color: lightseagreen;
+    border-radius: 5px;
+}
